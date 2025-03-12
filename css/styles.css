@@ -38,9 +38,9 @@
 /*--------- Abstracts variable ---------- */
 @import url(bootstrap-select.min.css);
 :root {
-  --main: #000000;
+  --main: #F1B1A5;
   --white: #ffffff;
-  --primary: #db1215;
+  --primary: #940130;
   --red_1: #db1215;
   --backdrop: rgba(0, 0, 0, 0.5);
   --yellow: #ffb321;
@@ -235,6 +235,12 @@ menu,
 nav,
 section {
   display: block;
+}
+
+/* Extra */
+
+.text-about{
+  font-family: "Alex Brush";
 }
 
 /* Elements
@@ -456,6 +462,7 @@ h6 {
 }
 
 h1 {
+  font-family: "Alex brush", sans-serif;
   font-size: 80px;
   line-height: 96px;
 }
@@ -558,7 +565,7 @@ video {
 }
 
 .bg_white {
-  background-color: var(--white) !important;
+  background-color: var(--primary) !important;
 }
 
 .bg_dark {
@@ -2414,7 +2421,7 @@ label {
   margin-bottom: 11px;
 }
 .canvas-mb .mb-other-content .mb-info li {
-  color: rgb(134, 134, 134);
+  color: var(--primary);
   font-size: 14px;
   line-height: 24px;
 }
@@ -2749,13 +2756,14 @@ header.header-bg {
   padding-top: 40px;
   padding-bottom: 40px;
   position: relative;
+  background-color: var(--primary);
 }
 .footer .footer-wrap .footer-body::before {
   position: absolute;
   content: "";
   top: 0;
   left: 50%;
-  background-color: var(--line);
+  background-color: var(--primary);
   height: 1px;
   width: 100%;
   max-width: 1440px;
@@ -2801,7 +2809,7 @@ header.header-bg {
   line-height: 30px;
 }
 .footer .footer-infor ul li p a {
-  color: rgb(84, 84, 84);
+  color: #F1B1A5;
   font-weight: 700;
 }
 .footer .footer-infor > a {
@@ -8318,6 +8326,7 @@ header.header-bg {
   display: block;
 }
 .banner-gr-item .content .title {
+  font-family: "Alex Brush";
   font-size: 28px;
   line-height: 34px;
 }
@@ -9956,6 +9965,7 @@ header.header-bg {
   font-size: 14px;
   line-height: 14px;
   font-weight: 600;
+  color: var(--primary);
 }
 .card-product .card-product-info .old-price {
   text-decoration: line-through;
@@ -20157,6 +20167,8 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
     height: 300px;
     margin-right: -80px;
   }
+
+  
   .slider-home-4 .wrap-slider {
     height: 250px;
   }
@@ -21227,5 +21239,10 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
     right: 0;
   }
 }
+
+
+/* Update Styling */
+
+
 
 /*# sourceMappingURL=styles.css.map */
