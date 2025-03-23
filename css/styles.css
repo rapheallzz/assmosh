@@ -38,9 +38,9 @@
 /*--------- Abstracts variable ---------- */
 @import url(bootstrap-select.min.css);
 :root {
-  --main: #F1B1A5;
+  --main: #DEA193;
   --white: #ffffff;
-  --primary: #940130;
+  --primary: #660033;
   --red_1: #db1215;
   --backdrop: rgba(0, 0, 0, 0.5);
   --yellow: #ffb321;
